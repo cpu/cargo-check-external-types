@@ -4,6 +4,7 @@
 name: CI
 on:
   pull_request:
+  push:
 
 # Allow one instance of this workflow per pull request, and cancel older runs when new changes are pushed
 concurrency:
